@@ -21,6 +21,7 @@ export default function Ingredients(){
 
     function getIngredientList(ingredientId) {
         if(recipesList) {
+            console.log(recipesList.map(item => item.ingredientList))
             const result = recipesList.filter(recipe =>
             {
                 const arrayOfIngredients = recipe.ingredientList.map((item)=> item.ingredientId)

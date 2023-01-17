@@ -9,7 +9,7 @@ export default function Nav(){
 
     return(
         <nav>
-            <div className="title"> LA CUIZINE </div>
+            <img src="../src/assets/icons8-cook-64.png"/>
             <div className="link">
             <Link to={"/"}>Acceuil</Link>
             <Link to={"/ingredients"}>Les ingrédients</Link>
