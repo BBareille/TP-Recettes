@@ -1,0 +1,318 @@
+{
+  "ingredientCategories": [
+    {
+      "id": 1,
+      "label": "Légumes"
+    },
+    {
+      "id": 2,
+      "label": "Viandes"
+    },
+    {
+      "id": 3,
+      "label": "Poissons"
+    },
+    {
+      "id": 4,
+      "label": "Fruits"
+    },
+    {
+      "id": 5,
+      "label": "Féculents"
+    },
+    {
+      "id": 6,
+      "label": "Autres"
+    }
+  ],
+  "recipeCategories": [
+    {
+      "id": 1,
+      "label": "Entrées"
+    },
+    {
+      "id": 2,
+      "label": "PLats"
+    },
+    {
+      "id": 3,
+      "label": "Désserts"
+    }
+  ],
+  "themes": [
+    {
+      "id": 1,
+      "label": "Cuisine Tex Mex"
+    },
+    {
+      "id": 2,
+      "label": "Cuisine italienne"
+    },
+    {
+      "id": 3,
+      "label": "Cuisine asiatique"
+    },
+    {
+      "id": 4,
+      "label": "Saint Patrick"
+    },
+    {
+      "id": 5,
+      "label": "Noël"
+    }
+  ],
+  "ingredients": [
+    {
+      "id": 1,
+      "ingredientCategoryId": 1,
+      "label": "Avocat"
+    },
+    {
+      "id": 2,
+      "ingredientCategoryId": 1,
+      "label": "Chou rouge"
+    },
+    {
+      "id": 3,
+      "ingredientCategoryId": 1,
+      "label": "Carotte"
+    },
+    {
+      "id": 4,
+      "ingredientCategoryId": 6,
+      "label": "Jaune d'oeuf"
+    },
+    {
+      "id": 5,
+      "ingredientCategoryId": 6,
+      "label": "sucre"
+    },
+    {
+      "id": 6,
+      "ingredientCategoryId": 6,
+      "label": "lait"
+    },
+    {
+      "id": 7,
+      "ingredientCategoryId": 6,
+      "label": "Baileys"
+    },
+    {
+      "id": 9,
+      "ingredientCategoryId": 6,
+      "label": "Farine de blé"
+    },
+    {
+      "id": 10,
+      "ingredientCategoryId": 6,
+      "label": "Levure chimique"
+    },
+    {
+      "id": 11,
+      "ingredientCategoryId": 6,
+      "label": "Beurre"
+    },
+    {
+      "id": 12,
+      "ingredientCategoryId": 6,
+      "label": "Blanc d'oeuf"
+    },
+    {
+      "id": 13,
+      "ingredientCategoryId": 6,
+      "label": "Vanille en poudre"
+    }
+  ],
+  "difficulties": [
+    {
+      "id": 1,
+      "label": "Très facile"
+    },
+    {
+      "id": 2,
+      "label": "Facile"
+    },
+    {
+      "id": 3,
+      "label": "Moyenne"
+    },
+    {
+      "id": 4,
+      "label": "Difficile"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "userName": "Joe User",
+      "email": "j.user@mail.com",
+      "pwd": "123",
+      "role": "author"
+    },
+    {
+      "id": 2,
+      "userName": "Bob User",
+      "email": "b.user@mail.com",
+      "pwd": "123",
+      "role": "author"
+    },
+    {
+      "id": 3,
+      "userName": "Emily User",
+      "email": "e.user@mail.com",
+      "pwd": "123",
+      "role": "author"
+    },
+    {
+      "id": 4,
+      "userName": "Lydia User",
+      "email": "l.user@mail.com",
+      "pwd": "123",
+      "role": "author"
+    },
+    {
+      "id": 5,
+      "userName": "Jane admin",
+      "email": "j.admin@mail.com",
+      "pwd": "123",
+      "role": "admin"
+    },
+    {
+      "userName": "albert",
+      "email": "albert@gmail.fr",
+      "pwd": "147",
+      "role": "author",
+      "id": 7
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Petites crèmes au Baileys",
+      "image": "https://odelices.ouest-france.fr/images/recettes/petites_cremes_au_baileys.jpg",
+      "userId": 2,
+      "difficultyId": 1,
+      "rating": 4,
+      "themeId": 4,
+      "recipeCategoryId": 3,
+      "prepTime": 20,
+      "cookingTime": 15,
+      "ingredientList": [
+        {
+          "ingredientId": 4,
+          "quantity": 2,
+          "unit": ""
+        },
+        {
+          "ingredientId": 5,
+          "quantity": 30,
+          "unit": "g"
+        },
+        {
+          "ingredientId": 6,
+          "quantity": 15,
+          "unit": "cl"
+        },
+        {
+          "ingredientId": 7,
+          "quantity": 5,
+          "unit": "cl"
+        }
+      ],
+      "steps": [
+        "Dans un saladier, fouettez les jaunes d’oeuf avec le sucre. Incorporez le lait et le Baileys.",
+        "Versez la préparation dans de petites verrines à l’aide d’un entonnoir à piston.",
+        "Placez les crèmes dans un plat à gratin, remplissez d’eau chaude à mi hauteur et faites-les cuire au bain-marie dans le four préchauffé à 140°C. La cuisson dure environ 60 min. Les crèmes doivent être prises et ne plus trembler.",
+        "Servez bien frais."
+      ],
+      "tags": [
+        "Irlande"
+      ],
+      "Comments": [
+        {
+          "createdAt": "2023-01-15",
+          "userName": "Le gourmand du net",
+          "text": "Je fais ces crèmes régulièrement, c’est le succès assuré chaque fois. Faciles et délicieuses"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Biscuits craquelés de la Saint-Patrick",
+      "image": "https://odelices.ouest-france.fr/images/recettes/biscuits_craqueles_de_la_saint_patrick.jpg",
+      "userId": 1,
+      "difficultyId": 1,
+      "rating": 4,
+      "themeId": 4,
+      "recipeCategoryId": 3,
+      "prepTime": 15,
+      "cookingTime": 15,
+      "ingredientList": [
+        {
+          "ingredientId": 9,
+          "quantity": 120,
+          "unit": "g"
+        },
+        {
+          "ingredientId": 10,
+          "quantity": 8,
+          "unit": "g"
+        },
+        {
+          "ingredientId": 5,
+          "quantity": 80,
+          "unit": "g"
+        },
+        {
+          "ingredientId": 11,
+          "quantity": 80,
+          "unit": "g"
+        },
+        {
+          "ingredientId": 12,
+          "quantity": 1,
+          "unit": ""
+        },
+        {
+          "ingredientId": 6,
+          "quantity": 1,
+          "unit": "cuillère à soupe"
+        },
+        {
+          "ingredientId": 13,
+          "quantity": "1/2",
+          "unit": "cuillère à café"
+        }
+      ],
+      "steps": [
+        "Dans un saladier, mélangez la farine, la levure, le sucre et la vanille.",
+        "Incorporez le blanc d’oeuf, le lait et le beurre fondu. Ajoutez une pointe de colorant vert pour avoir la couleur voulue. Mélangez bien.",
+        "Réservez la pâte au moins 2h au réfrigérateur.",
+        "Prélevez des boules de pâte et roulez-les entre vos mains.",
+        "Roulez-les dans du sucre glace et posez-les sur une plaque recouverte de papier sulfurisé.",
+        "Faites cuire 14 min dans le four préchauffé à 180°C. Puis laissez-les refroidir sur une grille."
+      ],
+      "tags": [
+        "Irlande"
+      ],
+      "Comments": [
+        {
+          "createdAt": "2023-01-15",
+          "userName": "la pâtissière enfarinée",
+          "text": "Très facile et super bon"
+        }
+      ]
+    },
+    {
+      "title": "test",
+      "id": 3
+    },
+    {
+      "title": "La mangouste au coco",
+      "themeId": "Noël",
+      "prepTime": "60",
+      "cookingTime": "30",
+      "id": 4
+    }
+  ]
+}
