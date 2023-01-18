@@ -58,10 +58,12 @@ export default function Ingredients(){
         return (
             <div>
             <Nav/>
+                <div className="body ingredients">
                 <h1>Liste des différents ingrédients</h1>
             <ul className="ingredientList">
                 {showIngredientsList()}
             </ul>
+                </div>
             </div>
         )
     }

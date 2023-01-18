@@ -16,10 +16,11 @@ import NewRecipeForm from "../components/NewRecipeForm.jsx";
 
 const router = createBrowserRouter([
     {path: "/", element:<HomePage/>},
-    {path: "/login", element:<Form registered={true}/>},
-    {path: "/register", element:<Form registered={false}/>},
+    {path: "/login", element:<Form/>},
+    {path: "/register", element:<Form/>},
     {path: "/ingredients", element:<Ingredients/>},
     {path: "/recettes", element:<Recettes/>},
+    {path: "/recettesDetails", element:<Recettes/>},
     {path: "/account", element:<Account/>},
     {path: "/newRecipes", element:<NewRecipeForm/>},
 ])
@@ -31,6 +32,7 @@ export function App(){
     const [connectedAccount, setConnectedAccount] = useState()
     const [ingredientsList, setIngredientsList]= useState()
     const [themeList, setThemeList] = useState()
+    const [isRegistered, setIsRegistered] = useState(false)
 
 
     async function listUser(){
@@ -63,6 +65,17 @@ export function App(){
 
     }getThemeList()
 
+    function connectedAccountUsername(){
+        if(connectedAccount) {
+            return connectedAccount.map((item) => item.userName)
+        }
+    }
+    function connectedAccountId(){
+        if(connectedAccount) {
+            return connectedAccount.map((item) => item.userId)
+        }
+    }
+
 
     return(
         <CredentialsContext.Provider value={
@@ -74,7 +87,11 @@ export function App(){
                 connectedAccount,
                 setConnectedAccount,
                 ingredientsList,
-                themeList
+                themeList,
+                isRegistered,
+                setIsRegistered,
+                connectedAccountId,
+                connectedAccountUsername,
             }}>
             <RouterProvider router={router} />
         </CredentialsContext.Provider>

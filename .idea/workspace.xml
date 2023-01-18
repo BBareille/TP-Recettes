@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3d0cd6af-bacc-4437-ae81-efa58f7d74ee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/laCuizine/Pages/RecettesDetails.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laCuizine/Pages/Ingredients.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/laCuizine/Pages/Ingredients.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laCuizine/Pages/Recettes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/laCuizine/Pages/Recettes.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laCuizine/components/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/laCuizine/components/Form.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laCuizine/components/NewRecipeForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/laCuizine/components/NewRecipeForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laCuizine/components/nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/laCuizine/components/nav.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laCuizine/data/recettes.json" beforeDir="false" afterPath="$PROJECT_DIR$/laCuizine/data/recettes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laCuizine/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/laCuizine/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laCuizine/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/laCuizine/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laCuizine/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/laCuizine/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laCuizine/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/laCuizine/src/main.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KPIvzBZaxz1zJgWwwqJl7lqqRg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrateur/Documents/LaCuizine&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrateur\Documents\LaCuizine\laCuizine\Pages" />
+      <recent name="C:\Users\Administrateur\Documents\LaCuizine\laCuizine" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d0cd6af-bacc-4437-ae81-efa58f7d74ee" name="Changes" comment="" />
+      <created>1673870025841</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673870025841</updated>
+      <workItem from="1673870026955" duration="341000" />
+      <workItem from="1673870393554" duration="2114000" />
+      <workItem from="1673872586154" duration="12000000" />
+      <workItem from="1673942372335" duration="5367000" />
+      <workItem from="1673949094204" duration="19778000" />
+      <workItem from="1674028589752" duration="582000" />
+      <workItem from="1674029271287" duration="1645000" />
+      <workItem from="1674030955687" duration="19396000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

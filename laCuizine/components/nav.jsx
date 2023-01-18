@@ -4,7 +4,7 @@ import {useContext} from "react";
 
 export default function Nav(){
 
-    const {isConnected, connectedAccount} = useContext(CredentialsContext)
+    const {isConnected, connectedAccount, setIsRegistered} = useContext(CredentialsContext)
 
 
     return(
@@ -14,7 +14,7 @@ export default function Nav(){
             <Link to={"/"}>Acceuil</Link>
             <Link to={"/ingredients"}>Les ingrédients</Link>
             <Link to={"/recettes"}>Les recettes</Link>
-                {!isConnected?<Link to={"/login"}>Se connecter</Link>:<Link to={"/account"}>Mon compte {connectedAccount.charAt(0).toUpperCase()+connectedAccount.slice(1)}</Link>}
+                {!isConnected?<Link onClick={() => setIsRegistered(true)} to={"/login"}>Se connecter</Link>:<Link to={"/account"}>Mon compte {connectedAccount.map((item)=> item.userName).toString()}</Link>}
             </div>
         </nav>
     )
